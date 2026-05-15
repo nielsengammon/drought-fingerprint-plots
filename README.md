@@ -40,8 +40,8 @@ This repository contains a Jupyter notebook for generating a graphical depiction
 
 4.	**(Optional) Specify user inputs for Production cell #1**   
     station: The ID of the station whose drought conditions you wish to display   
-	  sname: The name of the station (used only to label the graph)   
-    savefig: True will output graphics to a file (whose directory is savefigprefix)
+	sname: The name of the station (used only to label the graph)   
+    savefigprefix: If not '', will output graphic to savefigprefix directory)
 
 6.	Note: If a variable is defined on two consecutive lines, comment out the second line to use the default value on the first line, uncomment the second line to use the value specified there.  To preserve the default value, only change the value in the second line.
 
